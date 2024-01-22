@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: #111;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding:20px 10px;
+    width:100%;
+    z-index:1;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    transform: 0.5s;
+    background-color: rgb(10, 255, 255);
+}
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration:none;
+}
+.logo span{
+    color: #fb911f;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style-type:  none;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.btn-reserve{
+    padding: 10px 20px;
+    background: #fb911f;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+.btn-reserve:hover{
+    background: #00fb98;
+    transition: ease-out;
+}
+header .navbar li a:hover{
+    color: #00fb98;
+    border-bottom: 2px solid #fb7710;
+}
+.bannier{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Restaurant-Au-Cheval-Noir-Herrlisheim_Photos-13.jpg);
+    background-size: cover;
+}
+.bannier .content{
+    max-width: 70%;
+    text-align: center;
+}
+.bannier .content h2{
+    color: #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.content p:nth-child(2){
+    color: #fff;
+    font-size: 1.2em;
+
+}
+.btn1{
+    font-size: 1em;
+    color: #fff;
+    background: #fb911f;
+    padding: 10px 20px;
+    display:inline-block;
+    margin-top:20px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transform: 0.5s;
+    margin-left:10px ;
+} 
+
+.btn2{
+    font-size: 1em;
+    color: #fff;
+    background: #2788d6;
+    padding: 10px 20px;
+    display:inline-block;
+    margin-top:20px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transform: 0.5s;
+    margin-left:10px ;
+}
+.btn1:hover{
+    letter-spacing: 4px;
+
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+.row .col50 h2{
+    margin-bottom: 20px;
+
+}
+.titre-texte{
+    color: #000;
+    font-size: 2em;
+    font-weight: 200px;
+    text-transform: uppercase;
+}
+.titre-texte span{
+    color: #fb911f;
+    font-size: 2.5rem;
+    font-weight: 700px;
+}
+.row .col50 img{
+    /* height: 250px; */
+    /* width: 400px; */
+    position: relative;
+}
+.row1{
+
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu{
+    margin-top: -100px;
+}
+.menu .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .contenu .box{
+    margin: 10px;
+    border: 20px solid #fff;
+    box-shadow: 0px 17px 49px -32px rgba(0, 0,0,0.8);
+    transition: 1s;
+}
+.menu .contenu .box:hover{
+   transform: scale(1.05);
+}
+.menu .contenu .box .imbox{
+    position: relative;
+    width: 190px;
+    height: 200px;
+}
+.menu .contenu .box .imbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 190px;
+    height: 200px;
+    object-fit: cover;
+}
